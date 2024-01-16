@@ -11,14 +11,16 @@
   font-weight: 400;
   font-style: normal;
 }
-body { font-family: 'SUITE-Regular', "Malgun Gothic", sans-serif; }
-table { border-collapse: collapse; width: 48%; float: left; margin-right: 2%; }
+body { font-family: 'SUITE-Regular', "Malgun Gothic", sans-serif; text-align: center; margin: 0; padding: 0; height: 100vh; display: flex; flex-direction: column; align-items: center; }
+.table-container { width: 50%; }
+table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }
 th, td { border: 1px solid #dddddd; text-align: left; padding: 8px; }
 tr:nth-child(even) { background-color: #f2f2f2; }
 th { background-color: #dddddd; }
 </style>
 </head>
 <body>
+<div class="table-container">
 <table>
 <tr>
 <th>노블</th>
